@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
     Audio track{file_name};
 
     if (!track.loaded_succesfully()) {
-        std::cout << "Track loaded succesfully\n";
+        std::cout << "Track did not load succesfully\n";
         return EXIT_FAILURE;
     }
 
